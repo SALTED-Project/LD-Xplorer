@@ -34,7 +34,6 @@ TBD
 
 ## License
 
-All services use the MIT license:
 
     ```
     MIT License
