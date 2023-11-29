@@ -18,7 +18,7 @@ The added value of our NGSI-LD-based web application lies in its capacity to dem
 
 #### 🎯 End User Frontend
 
-<img src="https://raw.githubusercontent.com/SALTED-Project/LD-Xplorer/master/images/frontend.jpeg" alt="ld-xplorer frontend" height="300px"/>
+<img src="https://raw.githubusercontent.com/SALTED-Project/LD-Xplorer/master/images/frontend.JPG" alt="ld-xplorer frontend" height="300px"/>
 
 
 #### 📧 Contact Information
