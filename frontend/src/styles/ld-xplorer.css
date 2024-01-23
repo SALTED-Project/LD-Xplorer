@@ -1,0 +1,42 @@
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: var(--kyb-basic);
+}
+
+#app {
+    height: 100%;
+    width: 100%;
+}
+
+.full-size {
+    height: 100%;
+    width: 100%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.row {
+    margin: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.row .col-100h {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }

@@ -1,0 +1,16 @@
+{
+  "name": "internal-scorpio-api",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon src/api.js",
+    "prod": "node src/api.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^4.17.3",
+    "got": "12.*"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

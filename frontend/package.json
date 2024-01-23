@@ -1,0 +1,18 @@
+{
+  "name": "ld-xplorer",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build-for-backend": "vite build"
+  },
+  "dependencies": {
+    "bootstrap": "5.2.0",
+    "bootstrap-vue-3": "0.2.8",
+    "sass": "^1.55.0",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.1",
+    "vite": "^3.0.4"
+  }
+}

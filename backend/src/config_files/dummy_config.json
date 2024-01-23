@@ -1,0 +1,12 @@
+{
+    "scorpio_url": "<your Scorpio broker's URL>",
+    "keycloak_url": "<eg when you want to connect to SALTED scorpio>",
+    "keycloak_client_id": "<eg when you want to connect to SALTED scorpio>",
+    "keycloak_secret": "<eg when you want to connect to SALTED scorpio>",
+    "test_type": "<an entity type you want to use as default/test>",
+    "ngsi_api": "/ngsi-ld/v1/",
+    "token_required": false,
+    "port": 1234,
+    "frontend_content_path" : "../webapp/",
+    "api_prefix" : "/api"
+}
