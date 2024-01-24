@@ -1,6 +1,5 @@
 # LD-Xplorer
 
-
 ## Introduction
 
 #### Purpose
@@ -86,7 +85,7 @@ take dummy_config.json as a reference
 create your file and name it config.json
 ```
 
-**Note:** If you are working with your own context broker which doesn't use Keycloak, you can simply omit these properties from the config file and set the property *token_handling* to **false**.
+**Notes regarding config:** If you are working with your own context broker which doesn't use Keycloak, you can simply omit these properties from the config file and set the property *token_handling* to **false**. The *test type* property is used for the "get random entity" button (so it's currently not actually random). The property *frontend_content_path* has to be relative to location of package.json. As long as you don't change the paths from the default, you can leave it as it is in the dummy config. You may experience strange errors ("Forbidden") if you change it to a path that goes beyond the root location (location of package.json).
 
 run app in development mode (i.e. changes in backend code trigger re-load of app):
 ```sh
@@ -110,9 +109,9 @@ Within the `Dockerfile`, the same steps as described above are done automaticall
 `build.sh` further automates the process described above: It checks whether the frontend to compile is available, builds a new container using the Dockerfile, and stops and removes an existing older container.
 
 ##### example_run.sh
-`example_run.sh`shows you how to additionally automatically run your newly-created container according to your specific configuration. It calls `build.sh`and then issues the `Docker run`command with necessary options.
+`example_run.sh` shows you how to additionally automatically run your newly-created container according to your specific configuration. It calls `build.sh` and then issues the `Docker run` command with necessary options.
 
-NOTE: Please make sure that you adapt these options to your needs (your port and your config file).
+**NOTE:** Please make sure that you adapt these options to your needs (your port and your config file).
 
 
 ## License
