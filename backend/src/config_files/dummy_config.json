@@ -7,6 +7,6 @@
     "ngsi_api": "/ngsi-ld/v1/",
     "token_required": false,
     "port": 1234,
-    "frontend_content_path" : "../webapp/",
+    "frontend_content_path" : "./webapp/",
     "api_prefix" : "/api"
 }
