@@ -12,7 +12,7 @@
                 available_entity_types: [],
                 // this doesn't look so nice here in the middle of the code - but on the other hand we can re-use the same details component and only care about styling once
                 salted_details : new NavbarDetails("This is brought to you by SALTED project", 
-                '<b>S</b>ituation-<b>A</b>ware <b>L</b>inked he<b>T</b>erogeneous <b>E</b>nriched <b>D</b>ata<br>Find our code on our <a href="https://github.com/SALTED-Project">GithHub page</a>.',
+                '<b>S</b>ituation-<b>A</b>ware <b>L</b>inked he<b>T</b>erogeneous <b>E</b>nriched <b>D</b>ata<br>Find our code on our <a href="https://github.com/SALTED-Project">GitHub page</a>.',
                 "salted-logo-95x128-1.png", "https://salted-project.eu"),
                 fiware_details : new NavbarDetails("Meet NGSI-LD", 
                 '<a href="https://ngsi-ld-tutorials.readthedocs.io/en/latest/">NGSI-LD Tutorial</a><br>brought to you by FIWARE<br>',
